@@ -9,8 +9,8 @@ function App() {
  
   return (
     
-   <div className="">
-   <nav>
+  
+   <nav className="overflow-auto">
     <div className="flex py-4 w-full bg-gray-100 justify-between items-center">
       <div className="flex ml-96 font-semibold text-sm tracking-tight items-center">
         <h3 className=" text-[15px]">Alison's New App is now available on iOS and Android!</h3>
@@ -76,7 +76,7 @@ function App() {
       </div>
      </div>
    </nav>
-   </div>
+ 
   )
 }
 
